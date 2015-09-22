@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B95786041BB10CAB00C636B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95786031BB10CAB00C636B3 /* AppDelegate.swift */; };
+		B95786061BB10CAB00C636B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95786051BB10CAB00C636B3 /* ViewController.swift */; };
+		B95786091BB10CAC00C636B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95786071BB10CAC00C636B3 /* Main.storyboard */; };
+		B957860B1BB10CAC00C636B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B957860A1BB10CAC00C636B3 /* Images.xcassets */; };
+		B957860E1BB10CAC00C636B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B957860C1BB10CAC00C636B3 /* LaunchScreen.xib */; };
+		B957861A1BB10CAD00C636B3 /* RollingStonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95786191BB10CAD00C636B3 /* RollingStonesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B95786141BB10CAC00C636B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95785F61BB10CAA00C636B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95785FD1BB10CAB00C636B3;
+			remoteInfo = RollingStones;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B95785FE1BB10CAB00C636B3 /* RollingStones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollingStones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95786021BB10CAB00C636B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95786031BB10CAB00C636B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B95786051BB10CAB00C636B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B95786081BB10CAC00C636B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B957860A1BB10CAC00C636B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B957860D1BB10CAC00C636B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B95786131BB10CAC00C636B3 /* RollingStonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollingStonesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95786181BB10CAD00C636B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95786191BB10CAD00C636B3 /* RollingStonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingStonesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B95785FB1BB10CAB00C636B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95786101BB10CAC00C636B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B95785F51BB10CAA00C636B3 = {
+			isa = PBXGroup;
+			children = (
+				B95786001BB10CAB00C636B3 /* RollingStones */,
+				B95786161BB10CAC00C636B3 /* RollingStonesTests */,
+				B95785FF1BB10CAB00C636B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B95785FF1BB10CAB00C636B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B95785FE1BB10CAB00C636B3 /* RollingStones.app */,
+				B95786131BB10CAC00C636B3 /* RollingStonesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B95786001BB10CAB00C636B3 /* RollingStones */ = {
+			isa = PBXGroup;
+			children = (
+				B95786031BB10CAB00C636B3 /* AppDelegate.swift */,
+				B95786051BB10CAB00C636B3 /* ViewController.swift */,
+				B95786071BB10CAC00C636B3 /* Main.storyboard */,
+				B957860A1BB10CAC00C636B3 /* Images.xcassets */,
+				B957860C1BB10CAC00C636B3 /* LaunchScreen.xib */,
+				B95786011BB10CAB00C636B3 /* Supporting Files */,
+			);
+			path = RollingStones;
+			sourceTree = "<group>";
+		};
+		B95786011BB10CAB00C636B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95786021BB10CAB00C636B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B95786161BB10CAC00C636B3 /* RollingStonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B95786191BB10CAD00C636B3 /* RollingStonesTests.swift */,
+				B95786171BB10CAD00C636B3 /* Supporting Files */,
+			);
+			path = RollingStonesTests;
+			sourceTree = "<group>";
+		};
+		B95786171BB10CAD00C636B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95786181BB10CAD00C636B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B95785FD1BB10CAB00C636B3 /* RollingStones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B957861D1BB10CAD00C636B3 /* Build configuration list for PBXNativeTarget "RollingStones" */;
+			buildPhases = (
+				B95785FA1BB10CAB00C636B3 /* Sources */,
+				B95785FB1BB10CAB00C636B3 /* Frameworks */,
+				B95785FC1BB10CAB00C636B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollingStones;
+			productName = RollingStones;
+			productReference = B95785FE1BB10CAB00C636B3 /* RollingStones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B95786121BB10CAC00C636B3 /* RollingStonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95786201BB10CAD00C636B3 /* Build configuration list for PBXNativeTarget "RollingStonesTests" */;
+			buildPhases = (
+				B957860F1BB10CAC00C636B3 /* Sources */,
+				B95786101BB10CAC00C636B3 /* Frameworks */,
+				B95786111BB10CAC00C636B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95786151BB10CAC00C636B3 /* PBXTargetDependency */,
+			);
+			name = RollingStonesTests;
+			productName = RollingStonesTests;
+			productReference = B95786131BB10CAC00C636B3 /* RollingStonesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95785F61BB10CAA00C636B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Will Rempel";
+				TargetAttributes = {
+					B95785FD1BB10CAB00C636B3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B95786121BB10CAC00C636B3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B95785FD1BB10CAB00C636B3;
+					};
+				};
+			};
+			buildConfigurationList = B95785F91BB10CAA00C636B3 /* Build configuration list for PBXProject "RollingStones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95785F51BB10CAA00C636B3;
+			productRefGroup = B95785FF1BB10CAB00C636B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B95785FD1BB10CAB00C636B3 /* RollingStones */,
+				B95786121BB10CAC00C636B3 /* RollingStonesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B95785FC1BB10CAB00C636B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95786091BB10CAC00C636B3 /* Main.storyboard in Resources */,
+				B957860E1BB10CAC00C636B3 /* LaunchScreen.xib in Resources */,
+				B957860B1BB10CAC00C636B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95786111BB10CAC00C636B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95785FA1BB10CAB00C636B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95786061BB10CAB00C636B3 /* ViewController.swift in Sources */,
+				B95786041BB10CAB00C636B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B957860F1BB10CAC00C636B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B957861A1BB10CAD00C636B3 /* RollingStonesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95786151BB10CAC00C636B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95785FD1BB10CAB00C636B3 /* RollingStones */;
+			targetProxy = B95786141BB10CAC00C636B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B95786071BB10CAC00C636B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95786081BB10CAC00C636B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B957860C1BB10CAC00C636B3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B957860D1BB10CAC00C636B3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B957861B1BB10CAD00C636B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B957861C1BB10CAD00C636B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B957861E1BB10CAD00C636B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RollingStones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B957861F1BB10CAD00C636B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RollingStones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B95786211BB10CAD00C636B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RollingStonesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollingStones.app/RollingStones";
+			};
+			name = Debug;
+		};
+		B95786221BB10CAD00C636B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RollingStonesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollingStones.app/RollingStones";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95785F91BB10CAA00C636B3 /* Build configuration list for PBXProject "RollingStones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B957861B1BB10CAD00C636B3 /* Debug */,
+				B957861C1BB10CAD00C636B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B957861D1BB10CAD00C636B3 /* Build configuration list for PBXNativeTarget "RollingStones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B957861E1BB10CAD00C636B3 /* Debug */,
+				B957861F1BB10CAD00C636B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B95786201BB10CAD00C636B3 /* Build configuration list for PBXNativeTarget "RollingStonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95786211BB10CAD00C636B3 /* Debug */,
+				B95786221BB10CAD00C636B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B95785F61BB10CAA00C636B3 /* Project object */;
+}

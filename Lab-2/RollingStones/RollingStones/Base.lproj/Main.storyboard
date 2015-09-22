@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="RollingStones" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stonesTongue" translatesAutoresizingMaskIntoConstraints="NO" id="Ssk-xJ-H7M">
+                                <rect key="frame" x="-8" y="-174" width="120" height="120"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stonesTongue" translatesAutoresizingMaskIntoConstraints="NO" id="kp5-sm-YR8">
+                                <rect key="frame" x="230" y="68" width="120" height="120"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Rolling Stones" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bM-IM-pDM">
+                                <rect key="frame" x="218" y="225" width="145" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="HEk-yA-j7d">
+                                <rect key="frame" x="192" y="266" width="197" height="29"/>
+                                <segments>
+                                    <segment title="Young Stones"/>
+                                    <segment title="Old Stones"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeInfo:" destination="vXZ-lx-hvc" eventType="valueChanged" id="jQl-t1-uj7"/>
+                                    <action selector="imageControl:" destination="vXZ-lx-hvc" eventType="valueChanged" id="PTX-6A-7ar"/>
+                                </connections>
+                            </segmentedControl>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QFR-2a-Lio">
+                                <rect key="frame" x="340" y="326" width="51" height="31"/>
+                                <connections>
+                                    <action selector="updateFont:" destination="vXZ-lx-hvc" eventType="valueChanged" id="njC-XA-BaG"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capitalization" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xeh-du-c2o">
+                                <rect key="frame" x="192" y="336" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="16" minValue="6" maxValue="22" translatesAutoresizingMaskIntoConstraints="NO" id="S1O-Vx-VOr">
+                                <rect key="frame" x="190" y="438" width="220" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="216" id="6RF-1B-Lyp"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changeFontSize:" destination="vXZ-lx-hvc" eventType="valueChanged" id="8SD-pO-DQ6"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V34-dj-Cpw">
+                                <rect key="frame" x="280" y="393" width="20" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="S1O-Vx-VOr" firstAttribute="top" secondItem="V34-dj-Cpw" secondAttribute="bottom" constant="24" id="3NJ-AQ-kwR"/>
+                            <constraint firstItem="HEk-yA-j7d" firstAttribute="top" secondItem="5bM-IM-pDM" secondAttribute="bottom" constant="20" id="4tA-9L-v3c"/>
+                            <constraint firstItem="HEk-yA-j7d" firstAttribute="trailing" secondItem="QFR-2a-Lio" secondAttribute="trailing" id="9p1-NS-16W"/>
+                            <constraint firstItem="5bM-IM-pDM" firstAttribute="centerX" secondItem="kp5-sm-YR8" secondAttribute="centerX" id="DhM-jm-AvO"/>
+                            <constraint firstItem="HEk-yA-j7d" firstAttribute="leading" secondItem="Xeh-du-c2o" secondAttribute="leading" id="HT9-GO-nvj"/>
+                            <constraint firstItem="S1O-Vx-VOr" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Hll-T3-z3w"/>
+                            <constraint firstItem="kp5-sm-YR8" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="48" id="JQi-2j-edq"/>
+                            <constraint firstItem="HEk-yA-j7d" firstAttribute="centerX" secondItem="5bM-IM-pDM" secondAttribute="centerX" id="Kwq-jk-u5r"/>
+                            <constraint firstItem="5bM-IM-pDM" firstAttribute="top" secondItem="kp5-sm-YR8" secondAttribute="bottom" constant="37" id="Sow-1C-Lkq"/>
+                            <constraint firstItem="S1O-Vx-VOr" firstAttribute="leading" secondItem="Xeh-du-c2o" secondAttribute="leading" id="Uuz-sc-5iA"/>
+                            <constraint firstItem="V34-dj-Cpw" firstAttribute="top" secondItem="Xeh-du-c2o" secondAttribute="bottom" constant="36" id="Z5a-XO-yz5"/>
+                            <constraint firstItem="QFR-2a-Lio" firstAttribute="bottom" secondItem="Xeh-du-c2o" secondAttribute="bottom" id="ZeW-dL-9Wd"/>
+                            <constraint firstItem="QFR-2a-Lio" firstAttribute="top" secondItem="HEk-yA-j7d" secondAttribute="bottom" constant="32" id="nlP-Jq-KA9"/>
+                            <constraint firstItem="HEk-yA-j7d" firstAttribute="centerX" secondItem="V34-dj-Cpw" secondAttribute="centerX" id="ztp-qD-Q7X"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="capitalSwitch" destination="QFR-2a-Lio" id="8vF-sX-YXV"/>
+                        <outlet property="fontSizeLabel" destination="V34-dj-Cpw" id="aZL-ua-1S3"/>
+                        <outlet property="imageControl" destination="HEk-yA-j7d" id="0J6-dl-YFk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="stonesTongue" width="120" height="120"/>
+    </resources>
+</document>
