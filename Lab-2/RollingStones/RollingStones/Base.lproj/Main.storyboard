@@ -36,7 +36,6 @@
                                 </segments>
                                 <connections>
                                     <action selector="changeInfo:" destination="vXZ-lx-hvc" eventType="valueChanged" id="jQl-t1-uj7"/>
-                                    <action selector="imageControl:" destination="vXZ-lx-hvc" eventType="valueChanged" id="PTX-6A-7ar"/>
                                 </connections>
                             </segmentedControl>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QFR-2a-Lio">
@@ -89,6 +88,8 @@
                         <outlet property="capitalSwitch" destination="QFR-2a-Lio" id="8vF-sX-YXV"/>
                         <outlet property="fontSizeLabel" destination="V34-dj-Cpw" id="aZL-ua-1S3"/>
                         <outlet property="imageControl" destination="HEk-yA-j7d" id="0J6-dl-YFk"/>
+                        <outlet property="stonesImage" destination="kp5-sm-YR8" id="Jau-a8-ZRg"/>
+                        <outlet property="titleLabel" destination="5bM-IM-pDM" id="P8P-c8-zK4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
