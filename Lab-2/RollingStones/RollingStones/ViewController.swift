@@ -48,6 +48,13 @@ class ViewController: UIViewController {
         updateCaps()
     }
     
+    func refreshUI(){
+        titleLabel.text="TheRollingStones"
+        imageControl.selectedSegmentIndex = -1
+        capitalSwitch.on=false
+        stonesImage.image=UIImage(named: "beatles_abbey_road.png")
+    }
+    
     @IBOutlet weak var stonesImage: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     override func viewDidLoad() {

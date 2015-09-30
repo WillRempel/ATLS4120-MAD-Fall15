@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  RollingStones
+//  bac_test
 //
-//  Created by Will Rempel on 9/21/15.
+//  Created by Will Rempel on 9/29/15.
 //  Copyright (c) 2015 Will Rempel. All rights reserved.
 //
 
@@ -31,7 +31,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillEnterForeground(application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-        let vc=application
     }
 
     func applicationDidBecomeActive(application: UIApplication) {
