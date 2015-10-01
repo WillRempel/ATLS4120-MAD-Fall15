@@ -56,7 +56,9 @@ class ViewController: UIViewController, UITextFieldDelegate{
 
         let trueBAC=BAC - (timepast * 0.015)
         
-        BloodContent.text="testing"
+        println(trueBAC)
+        
+        BloodContent.text=String(format: "%.2f", trueBAC)
             }
     
     func textFieldDidEndEditing(textField: UITextField) {
