@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Goldblum" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jeff" translatesAutoresizingMaskIntoConstraints="NO" id="55K-5K-flv">
+                                <rect key="frame" x="114" y="66" width="140" height="140"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="QZ2-SM-u3Y" appends="YES" id="uLb-Dj-FQV"/>
+                                    <outletCollection property="gestureRecognizers" destination="epu-dX-b4a" appends="YES" id="c6H-fB-sWB"/>
+                                    <outletCollection property="gestureRecognizers" destination="JXZ-UC-ibR" appends="YES" id="J5P-ZQ-rPF"/>
+                                    <outletCollection property="gestureRecognizers" destination="cvq-ei-1IY" appends="YES" id="b8O-OQ-I68"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <gestureRecognizers/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="QZ2-SM-u3Y">
+                    <connections>
+                        <action selector="handlePinch:" destination="vXZ-lx-hvc" id="dc0-ws-Aij"/>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="DjF-Sg-Qn8"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="epu-dX-b4a">
+                    <connections>
+                        <action selector="handleRotate:" destination="vXZ-lx-hvc" id="F2U-aa-pR0"/>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="bge-ic-QfJ"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="JXZ-UC-ibR">
+                    <connections>
+                        <action selector="handlePan:" destination="vXZ-lx-hvc" id="IyD-H9-Z0P"/>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="0f6-00-nme"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="cvq-ei-1IY">
+                    <connections>
+                        <action selector="handleLongPress:" destination="vXZ-lx-hvc" id="4we-72-WSb"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jeff" width="70" height="70"/>
+    </resources>
+</document>

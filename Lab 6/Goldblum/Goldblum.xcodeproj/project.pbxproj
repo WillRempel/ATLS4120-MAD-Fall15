@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9606ADA1BD6B0560089BD60 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9606AD91BD6B0560089BD60 /* AVFoundation.framework */; };
+		B9606ADC1BD6B2520089BD60 /* Goldblum_laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9606ADB1BD6B2520089BD60 /* Goldblum_laugh.mp3 */; };
+		B9606ADD1BD6B2810089BD60 /* Goldblum_laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9606ADB1BD6B2520089BD60 /* Goldblum_laugh.mp3 */; };
+		B9CCF5691BCD5B68007AD0BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCF5681BCD5B68007AD0BD /* AppDelegate.swift */; };
+		B9CCF56B1BCD5B68007AD0BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCF56A1BCD5B68007AD0BD /* ViewController.swift */; };
+		B9CCF56E1BCD5B68007AD0BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CCF56C1BCD5B68007AD0BD /* Main.storyboard */; };
+		B9CCF5701BCD5B68007AD0BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CCF56F1BCD5B68007AD0BD /* Images.xcassets */; };
+		B9CCF5731BCD5B68007AD0BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9CCF5711BCD5B68007AD0BD /* LaunchScreen.xib */; };
+		B9CCF57F1BCD5B68007AD0BD /* GoldblumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCF57E1BCD5B68007AD0BD /* GoldblumTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9CCF5791BCD5B68007AD0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9CCF55B1BCD5B68007AD0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9CCF5621BCD5B68007AD0BD;
+			remoteInfo = Goldblum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9606AD91BD6B0560089BD60 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B9606ADB1BD6B2520089BD60 /* Goldblum_laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Goldblum_laugh.mp3; sourceTree = "<group>"; };
+		B9CCF5631BCD5B68007AD0BD /* Goldblum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goldblum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CCF5671BCD5B68007AD0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CCF5681BCD5B68007AD0BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9CCF56A1BCD5B68007AD0BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9CCF56D1BCD5B68007AD0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9CCF56F1BCD5B68007AD0BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B9CCF5721BCD5B68007AD0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B9CCF5781BCD5B68007AD0BD /* GoldblumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldblumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CCF57D1BCD5B68007AD0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CCF57E1BCD5B68007AD0BD /* GoldblumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldblumTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9CCF5601BCD5B68007AD0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9606ADA1BD6B0560089BD60 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CCF5751BCD5B68007AD0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9CCF55A1BCD5B68007AD0BD = {
+			isa = PBXGroup;
+			children = (
+				B9606AD91BD6B0560089BD60 /* AVFoundation.framework */,
+				B9CCF5651BCD5B68007AD0BD /* Goldblum */,
+				B9CCF57B1BCD5B68007AD0BD /* GoldblumTests */,
+				B9CCF5641BCD5B68007AD0BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9CCF5641BCD5B68007AD0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCF5631BCD5B68007AD0BD /* Goldblum.app */,
+				B9CCF5781BCD5B68007AD0BD /* GoldblumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9CCF5651BCD5B68007AD0BD /* Goldblum */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCF5681BCD5B68007AD0BD /* AppDelegate.swift */,
+				B9CCF56A1BCD5B68007AD0BD /* ViewController.swift */,
+				B9CCF56C1BCD5B68007AD0BD /* Main.storyboard */,
+				B9CCF56F1BCD5B68007AD0BD /* Images.xcassets */,
+				B9606ADB1BD6B2520089BD60 /* Goldblum_laugh.mp3 */,
+				B9CCF5711BCD5B68007AD0BD /* LaunchScreen.xib */,
+				B9CCF5661BCD5B68007AD0BD /* Supporting Files */,
+			);
+			path = Goldblum;
+			sourceTree = "<group>";
+		};
+		B9CCF5661BCD5B68007AD0BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCF5671BCD5B68007AD0BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9CCF57B1BCD5B68007AD0BD /* GoldblumTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCF57E1BCD5B68007AD0BD /* GoldblumTests.swift */,
+				B9CCF57C1BCD5B68007AD0BD /* Supporting Files */,
+			);
+			path = GoldblumTests;
+			sourceTree = "<group>";
+		};
+		B9CCF57C1BCD5B68007AD0BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCF57D1BCD5B68007AD0BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9CCF5621BCD5B68007AD0BD /* Goldblum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CCF5821BCD5B68007AD0BD /* Build configuration list for PBXNativeTarget "Goldblum" */;
+			buildPhases = (
+				B9CCF55F1BCD5B68007AD0BD /* Sources */,
+				B9CCF5601BCD5B68007AD0BD /* Frameworks */,
+				B9CCF5611BCD5B68007AD0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goldblum;
+			productName = Goldblum;
+			productReference = B9CCF5631BCD5B68007AD0BD /* Goldblum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9CCF5771BCD5B68007AD0BD /* GoldblumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CCF5851BCD5B68007AD0BD /* Build configuration list for PBXNativeTarget "GoldblumTests" */;
+			buildPhases = (
+				B9CCF5741BCD5B68007AD0BD /* Sources */,
+				B9CCF5751BCD5B68007AD0BD /* Frameworks */,
+				B9CCF5761BCD5B68007AD0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9CCF57A1BCD5B68007AD0BD /* PBXTargetDependency */,
+			);
+			name = GoldblumTests;
+			productName = GoldblumTests;
+			productReference = B9CCF5781BCD5B68007AD0BD /* GoldblumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9CCF55B1BCD5B68007AD0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Will Rempel";
+				TargetAttributes = {
+					B9CCF5621BCD5B68007AD0BD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B9CCF5771BCD5B68007AD0BD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B9CCF5621BCD5B68007AD0BD;
+					};
+				};
+			};
+			buildConfigurationList = B9CCF55E1BCD5B68007AD0BD /* Build configuration list for PBXProject "Goldblum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9CCF55A1BCD5B68007AD0BD;
+			productRefGroup = B9CCF5641BCD5B68007AD0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9CCF5621BCD5B68007AD0BD /* Goldblum */,
+				B9CCF5771BCD5B68007AD0BD /* GoldblumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9CCF5611BCD5B68007AD0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CCF56E1BCD5B68007AD0BD /* Main.storyboard in Resources */,
+				B9CCF5731BCD5B68007AD0BD /* LaunchScreen.xib in Resources */,
+				B9606ADC1BD6B2520089BD60 /* Goldblum_laugh.mp3 in Resources */,
+				B9CCF5701BCD5B68007AD0BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CCF5761BCD5B68007AD0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9606ADD1BD6B2810089BD60 /* Goldblum_laugh.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9CCF55F1BCD5B68007AD0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CCF56B1BCD5B68007AD0BD /* ViewController.swift in Sources */,
+				B9CCF5691BCD5B68007AD0BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CCF5741BCD5B68007AD0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CCF57F1BCD5B68007AD0BD /* GoldblumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9CCF57A1BCD5B68007AD0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9CCF5621BCD5B68007AD0BD /* Goldblum */;
+			targetProxy = B9CCF5791BCD5B68007AD0BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9CCF56C1BCD5B68007AD0BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CCF56D1BCD5B68007AD0BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9CCF5711BCD5B68007AD0BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CCF5721BCD5B68007AD0BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9CCF5801BCD5B68007AD0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9CCF5811BCD5B68007AD0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9CCF5831BCD5B68007AD0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Goldblum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9CCF5841BCD5B68007AD0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Goldblum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9CCF5861BCD5B68007AD0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoldblumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goldblum.app/Goldblum";
+			};
+			name = Debug;
+		};
+		B9CCF5871BCD5B68007AD0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoldblumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goldblum.app/Goldblum";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9CCF55E1BCD5B68007AD0BD /* Build configuration list for PBXProject "Goldblum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CCF5801BCD5B68007AD0BD /* Debug */,
+				B9CCF5811BCD5B68007AD0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9CCF5821BCD5B68007AD0BD /* Build configuration list for PBXNativeTarget "Goldblum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CCF5831BCD5B68007AD0BD /* Debug */,
+				B9CCF5841BCD5B68007AD0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9CCF5851BCD5B68007AD0BD /* Build configuration list for PBXNativeTarget "GoldblumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CCF5861BCD5B68007AD0BD /* Debug */,
+				B9CCF5871BCD5B68007AD0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9CCF55B1BCD5B68007AD0BD /* Project object */;
+}
